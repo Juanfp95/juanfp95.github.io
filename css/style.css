@@ -6,3 +6,30 @@
 html {
     font-size: 62.5%;
 }
+header {
+    background-color: teal;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    list-style: none;
+}
+.nav li {
+    display: flex;
+    height: 4vh;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 0.2rem;
+    background-color: White;
+    border-radius: 0.5rem;
+}
