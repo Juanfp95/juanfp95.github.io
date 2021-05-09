@@ -21,6 +21,11 @@ header .logo {
     width: auto;
     height: auto6;
 }
+header .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav {
     display: flex;
     justify-content: space-around;
