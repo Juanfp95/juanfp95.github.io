@@ -40,18 +40,27 @@ header .nav li {
     margin: 0.2rem;
 }
 main .introduccion {
+    width: 100vw;
+    height: 19vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 main section picture .logo {
     width: 12rem;
     height: 15rem;
 }
 main section div {
-    width: 19rem;
+    width: 20rem;
     height: 15rem;
     margin-right: 3rem;
 }
 main section div .introduccion-descrip {
     font-size: 1.2rem;
+    font-style: italic;
+}
+main .minicv {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(80, 78, 78);
 }
