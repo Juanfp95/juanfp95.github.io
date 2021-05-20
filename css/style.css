@@ -5,7 +5,7 @@
 }
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'KoHo', sans-serif;
 }
 a {
     text-decoration: none;
@@ -18,12 +18,17 @@ header {
     height: 30vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 header .titulo h1 {
     color: white;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
+    width: 100vw;
+    height: 20vh;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
 }
 header .nav {
     display: flex;
@@ -31,6 +36,8 @@ header .nav {
     align-items: center;
     padding: 2rem;
     list-style: none;
+    width: 100vw;
+    height: 10vh;
 }
 header .nav li {
     height: 4vh;
@@ -47,20 +54,37 @@ main .introduccion {
     align-items: center;
 }
 main section picture .logo {
-    width: 12rem;
-    height: 15rem;
+    width: 30vw;
+    height: 19vh;
 }
 main section div {
-    width: 20rem;
-    height: 15rem;
+    width: 70vw;
+    height: 19vh;
     margin-right: 3rem;
 }
 main section div .introduccion-descrip {
     font-size: 1.2rem;
     font-style: italic;
+    padding: 0 1rem;
 }
 main .minicv {
     width: 100vw;
     height: 20vh;
-    background-color: rgb(80, 78, 78);
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+main .minicv h2 {
+    padding-left: 1rem;
+}
+main .minicv ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+main .minicv ul li {
+    padding-left: 1rem;
+}
+main .minicv ul li a {
+    color: green;
 }
