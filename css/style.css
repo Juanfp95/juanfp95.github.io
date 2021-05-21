@@ -73,21 +73,24 @@ main .main--intro div .main--intro-text {
 }
 main .main--studies {
     width: 100vw;
-    height: 28vh;
+    height: 24vh;
     background-color: rgb(54, 53, 53);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 main .main--studies h2 {
+    padding-top: 1rem;
     padding-left: 1rem;
 }
 main .main--studies ul {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     list-style: none;
 }
 main .main--studies ul li {
-    margin: 0.8rem;
     padding: 1rem;
 }
 main .main--studies ul li a {
