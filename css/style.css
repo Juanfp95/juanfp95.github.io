@@ -57,6 +57,8 @@ main .main--intro .main--intro-pic {
     width: 10rem;
     height: 11.5rem;
     padding: 1rem;
+    margin-left: 1rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(30, 77, 89, 0.16);
 }
 main .main--intro div {
     width: 70vw;
