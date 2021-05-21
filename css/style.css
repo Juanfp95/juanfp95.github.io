@@ -18,7 +18,7 @@ header {
     height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 header .header--title h1 {
@@ -26,9 +26,10 @@ header .header--title h1 {
     font-size: 3.5rem;
     width: 100vw;
     height: 20vh;
+    margin-top: 3rem;
     padding: 3rem;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    align-self: center;
 }
 header .header--nav {
     display: flex;
@@ -48,7 +49,7 @@ header .header--nav li {
 }
 main .main--intro {
     width: 100vw;
-    height: 19vh;
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +73,7 @@ main .main--intro div .main--intro-text {
 }
 main .main--studies {
     width: 100vw;
-    height: 20vh;
+    height: 28vh;
     background-color: rgb(54, 53, 53);
     color: white;
 }
@@ -86,7 +87,8 @@ main .main--studies ul {
     list-style: none;
 }
 main .main--studies ul li {
-    padding-left: 1rem;
+    margin: 0.8rem;
+    padding: 1rem;
 }
 main .main--studies ul li a {
     color: greenyellow;
