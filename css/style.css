@@ -86,6 +86,6 @@ main .main--studies ul {
 main .main--studies ul li {
     padding-left: 1rem;
 }
-main .minicv ul li a {
-    color: green;
+main .main--studies ul li a {
+    color: greenyellow;
 }
