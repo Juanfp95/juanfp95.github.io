@@ -21,7 +21,7 @@ header {
     justify-content:center;
     align-items: center;
 }
-header .titulo h1 {
+header .header--title h1 {
     color: white;
     font-size: 3.5rem;
     width: 100vw;
@@ -30,7 +30,7 @@ header .titulo h1 {
     display: flex;
     justify-content: center;
 }
-header .nav {
+header .header--nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,50 +39,51 @@ header .nav {
     width: 100vw;
     height: 10vh;
 }
-header .nav li {
+header .header--nav li {
     height: 4vh;
     font-size: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin: 0.2rem;
 }
-main .introduccion {
+main .main--intro {
     width: 100vw;
     height: 19vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-main section picture .logo {
-    width: 30vw;
-    height: 19vh;
+main .main--intro .main--intro-pic {
+    width: 10rem;
+    height: 11.5rem;
+    padding: 1rem;
 }
-main section div {
+main .main--intro div {
     width: 70vw;
     height: 19vh;
     margin-right: 3rem;
 }
-main section div .introduccion-descrip {
+main .main--intro div .main--intro-text {
     font-size: 1.2rem;
     font-style: italic;
-    padding: 0 1rem;
+    padding: 1rem;
 }
-main .minicv {
+main .main--studies {
     width: 100vw;
     height: 20vh;
     background-color: rgb(54, 53, 53);
     color: white;
 }
-main .minicv h2 {
+main .main--studies h2 {
     padding-left: 1rem;
 }
-main .minicv ul {
+main .main--studies ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
 }
-main .minicv ul li {
+main .main--studies ul li {
     padding-left: 1rem;
 }
 main .minicv ul li a {
