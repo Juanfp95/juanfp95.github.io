@@ -51,8 +51,9 @@ main {
 }
 main .main--intro {
     width: 100vw;
-    height: 22rem;
+    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -68,10 +69,10 @@ main .main--intro div {
     align-items: center;
 }
 main .main--intro div .main--intro-text {
-    max-width: 30.5rem;
-    font-size: 1.2rem;
+    max-width: 40rem;
+    font-size: 1.8rem;
     font-style: italic;
-    padding: 1rem;
+    padding: 2rem;
 }
 main .main--studies {
     width: 100vw;
