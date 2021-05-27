@@ -6,13 +6,13 @@
 html {
     font-size: 62.5%;
     font-family: 'KoHo', sans-serif;
+    width: 100vw;
 }
 a {
     text-decoration: none;
     color: black;
 }
 header {
-    background: rgb(2,0,36);
     background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(9,121,69,1) 35%, rgba(0,255,247,1) 100%);
     width: 100vw;
     height: 15rem;
@@ -103,4 +103,48 @@ main .main--studies ul li {
 }
 main .main--studies ul li a {
     color: greenyellow;
+}
+.main--photo-proyect {
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(9,121,69,1) 35%, rgba(0,255,247,1) 100%);
+}
+.main--photo-proyect div {
+    padding: 2rem;
+}
+.main--photo-proyect div h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.main--photo-proyect .photo-proyect--slides {
+    width: 100vw;
+    height: 31.6rem;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.main--photo-proyect .photo-proyect--slides article {
+    scroll-snap-align: center;
+    width: 85%;
+    min-width: 27rem;
+    max-width: 35rem;
+    height: auto;
+    background-color: white;
+    margin: 0 0.5rem;
+    border-radius: 0.7rem;
+    align-self: center;
+    box-shadow: 0 1.2rem 1.8rem rgba(0, 0, 0, 0.336);
+}
+.main--photo-proyect .photo-proyect--slides article picture img {
+    width: 25rem;
+    height: 14.1rem;
+    margin: 1rem;
+}
+.main--photo-proyect .photo-proyect--slides article p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
 }
