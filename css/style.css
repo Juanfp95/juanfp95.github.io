@@ -60,7 +60,7 @@ main .main--intro {
 }
 main .main--intro .main--intro-pic {
     width: 20rem;
-    height: 23rem;
+    height: 26.7rem;
     padding: 1rem;
     margin-top: 1rem;
     box-shadow: 0 0.4rem 0.8rem rgba(30, 77, 89, 0.16);
@@ -71,7 +71,7 @@ main .main--intro div {
 }
 main .main--intro div .main--intro-text {
     max-width: 40rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: italic;
     padding: 2rem;
 }
@@ -98,7 +98,7 @@ main .main--studies ul {
 }
 main .main--studies ul li {
     margin: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     align-self: center;
 }
 main .main--studies ul li a {
@@ -127,24 +127,57 @@ main .main--studies ul li a {
 }
 .main--photo-proyect .photo-proyect--slides article {
     scroll-snap-align: center;
-    width: 85%;
-    min-width: 27rem;
-    max-width: 35rem;
+    width: auto;
     height: auto;
+    min-height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     margin: 0 0.5rem;
-    border-radius: 0.7rem;
     align-self: center;
     box-shadow: 0 1.2rem 1.8rem rgba(0, 0, 0, 0.336);
 }
 .main--photo-proyect .photo-proyect--slides article picture img {
-    width: 25rem;
-    height: 14.1rem;
-    margin: 1rem;
+    width: 23rem;
+    height: 12.9rem;
+    margin-bottom: 1rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .third-picture {
+    width: 23rem;
+    height: 14.8rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .forth-picture {
+    width: 23rem;
+    height: 15.3rem;
 }
 .main--photo-proyect .photo-proyect--slides article p {
     font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0;
+}
+footer {
+    width: 100vw;
+    height: 20rem;
+}
+footer .footer--footer {
+    margin: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+footer p {
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+    margin: 2rem 0;
+}
+footer a {
+width: 15rem;
+font-size: 1.8rem;
+font-weight: bold;
+text-align: center;
+align-self: center;
+margin: 2rem 0;
+box-shadow: 5px 5px 11px 2px rgba(0,0,0,0.72);
 }
