@@ -1,0 +1,55 @@
+header .header--title h1 {
+    font-size: 4.5rem;
+}
+main .main--intro {
+    min-height: 32rem;
+    justify-content: space-evenly;
+}
+main .main--intro div .main--intro-text {
+    max-width: 70rem;
+    font-size: 2.2rem;
+}
+main .main--studies {
+    min-height: 32rem;
+}
+main .main--studies h2 {
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+main .main--studies ul {
+    max-width: 80rem;
+}
+main .main--studies ul li {
+    margin: 2rem;
+    font-size: 2.2rem;
+    align-self: center;
+}
+.main--photo-proyect {
+    min-height: 67rem;
+}
+.main--photo-proyect div h2 {
+    font-size: 3rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture img {
+    width: 32rem;
+    height: 18rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .third-picture {
+    width: 32rem;
+    height: 20.5rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .forth-picture {
+    width: 32rem;
+    height: 21.3rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .fifth-picture {
+    width: 32rem;
+    height: 24rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .sixth-picture {
+    width: 32rem;
+    height: 24rem;
+}
+footer {
+    height: 13rem;
+}

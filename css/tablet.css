@@ -1,0 +1,27 @@
+main .main--intro {
+    flex-direction: row;
+}
+main .main--intro div .main--intro-text {
+    max-width: 50rem;
+}
+main .main--studies {
+    align-items: center;
+}
+main .main--studies ul {
+    max-width: 64rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main--photo-proyect {
+    min-height: 54rem;
+}
+ .main--photo-proyect .photo-proyect--slides {
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-x: visible;
+}
+.main--photo-proyect .photo-proyect--slides article {
+    margin: 0.5rem;
+    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.336);
+}

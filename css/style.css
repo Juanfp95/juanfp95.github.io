@@ -60,9 +60,8 @@ main .main--intro {
 }
 main .main--intro .main--intro-pic {
     width: 20rem;
-    height: 26.7rem;
+    height: 24rem;
     padding: 1rem;
-    margin-top: 1rem;
     box-shadow: 0 0.4rem 0.8rem rgba(30, 77, 89, 0.16);
 }
 main .main--intro div {
@@ -92,8 +91,6 @@ main .main--studies ul {
     max-width: 48rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     list-style: none;
 }
 main .main--studies ul li {
@@ -151,6 +148,14 @@ main .main--studies ul li a {
     width: 23rem;
     height: 15.3rem;
 }
+.main--photo-proyect .photo-proyect--slides article picture .fifth-picture {
+    width: 23rem;
+    height: 17.3rem;
+}
+.main--photo-proyect .photo-proyect--slides article picture .sixth-picture {
+    width: 23rem;
+    height: 17.3rem;
+}
 .main--photo-proyect .photo-proyect--slides article p {
     font-size: 1.4rem;
     font-weight: bold;
@@ -159,10 +164,9 @@ main .main--studies ul li a {
 }
 footer {
     width: 100vw;
-    height: 20rem;
+    height: 16rem;
 }
 footer .footer--footer {
-    margin: 5rem 3rem;
     display: flex;
     flex-direction: column;
 }
