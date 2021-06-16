@@ -13,7 +13,8 @@ a {
     color: black;
 }
 header {
-    background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(9,121,69,1) 35%, rgba(0,255,247,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 41%, rgba(0,255,16,1) 100%);
     width: 100vw;
     height: 15rem;
     display: flex;
@@ -46,6 +47,12 @@ header .header--nav li {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin: 0.2rem;
+}
+header .header--nav li a {
+    color: white;
+}
+header .header--nav li a:hover {
+    color: orange;
 }
 main {
     width: 100vw;
@@ -104,7 +111,8 @@ main .main--studies ul li a {
 .main--photo-proyect {
     width: 100vw;
     height: auto;
-    background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(9,121,69,1) 35%, rgba(0,255,247,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(184deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 41%, rgba(0,255,16,1) 100%);
 }
 .main--photo-proyect div {
     padding: 2rem;
